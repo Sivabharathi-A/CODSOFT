@@ -30,18 +30,20 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: black;
-    margin-right: 950px;
     margin-left: 10px;
 }
  
 #navbar ul {
-    padding: 30px 5px;
-    margin-right: 5px;
-    list-style: none;
+    float: right;
+    display: inline;
+    padding: 15px 5px;
+    margin-right: auto;
+    margin-left: auto;   
 }
  
 #navbar ul li {
     display: inline;
+    list-style: none;
 }
  
 #navbar ul li a{
@@ -179,16 +181,20 @@ body {
 }
 
 #signin label{
-    margin-left: 380px;
+    display: block;
+    margin-left: 360px;
+    margin-right: auto;
     margin-top: 50px;
     font-size: 20px;
     font-weight: 600;
 }
 
 #signin input[type=text], input[type=password] {
+    display: block;
     width: 50%;
     padding: 15px;
-    margin-left: 380px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
@@ -198,12 +204,14 @@ body {
 }
 
 #signin button{
+    display: block;
     background-color: black;
     color: white;
     font-size: 30px;
     border-radius: 5px;
     margin-top: 50px;
-    margin-left: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #signin button:hover{
